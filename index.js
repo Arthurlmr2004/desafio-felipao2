@@ -9,7 +9,8 @@ function getRank(victory, defeat) {
 
     if (balance < 10) {
         rank = "Ferro";
-    } 
+    }
+     
     else if (balance >= 11 && balance <= 20) {
         rank = "Bronze";
     }
